@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family:Georgia ;
+    
+}
+
+
+.whatever {
+    font-size: 13px ;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    position: right;
+    background-color: rgb(45, 48, 235);
+    height: 60px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.whatever a {
+    
+    padding: 8px 16px;
+    text-decoration: none;
+    color: rgb(36, 6, 6);
+
+}
+
+.hero {
+    padding: 20px;
+    display: flex; 
+    align-items: left;
+    flex-direction: row;
+    height: 100%;
+    
+}
+
+.profile-pic-container {
+    padding: 10px;
+    border-radius: 9999px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.25);
+    background-color: rgb(252, 252, 252);
+    
+}
+
+.profile-pic {
+    border-radius: 9999px;
+    width: 120px;
+    height: 120px;
+    background-image: url('images/sb.jpg');
+    background-size: cover;
+    justify-content: left;
+}
